@@ -65,17 +65,17 @@ function App() {
     },
     {
       id: 10,
-      description: 'No te arrepentirás.',
+      description: 'Un texas pochita bella?',
       img: 'https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif',
     },
     {
       id: 11,
-      description: 'Ya pon que siiii',
+      description: 'Una salchipapita?',
       img: 'https://media.tenor.com/_4KFcz84OGMAAAAj/cute.gif',
     },
     {
       id: 12,
-      description: 'Dale, no seas mala',
+      description: 'Y si vamos por un Vaqueros?',
       img: 'https://media.tenor.com/Az64YfoL7JcAAAAj/rawr.gif',
     },
   ];
@@ -104,7 +104,7 @@ function App() {
       {!valueSi ? (
         <div className="p-5">
           <h1 className="font-bold text-5xl text-center">
-            ¿Quieres ser mi San Valentin?
+            ¿Quieres ser mi San Valentín, pochita bella?
           </h1>
           <img
             src={
@@ -130,7 +130,7 @@ function App() {
               }}
               className={`bg-green-500 text-white font-bold p-2 rounded-md text-xl`}
             >
-              Si
+              Si quiero poporoto
             </button>
             <button
               className="bg-red-500 text-white min-w-48 font-bold p-2 rounded-md text-xl"
@@ -148,7 +148,7 @@ function App() {
                 {
                   (document.title =
                     Object.keys(randomValor).length === 0
-                      ? '¿Quieres ser mi San Valentin?'
+                      ? '¿Quieres ser mi San Valentín pochita bella?'
                       : randomValor.description)
                 }
               </span>
